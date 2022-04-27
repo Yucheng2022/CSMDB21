@@ -5,7 +5,7 @@
 
 
 #！/user/bin/env python
-"""Mapper1.py"""
+"""Mapper2.py"""
 
 import sys
 import re
@@ -14,5 +14,5 @@ for line in sys.stdin:
     
     line = line.strip()
     cols = line.split('\t')
-    print'%s\t%d'%(cols[2],1)
+    print'%s\t%d'%(cols[0],1)
 
