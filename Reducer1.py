@@ -26,8 +26,8 @@ for line in sys.stdin:
         if airport_airport:
             print'%s\t%d'%(airport_airport, airport_count)
             
-            airport_count = count
-            airport_airport = airport
+        airport_count = count
+        airport_airport = airport
 if airport_airport == airport:
     print '%s\t%d' % (airport_airport, airport_count)
 
