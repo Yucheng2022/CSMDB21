@@ -13,6 +13,6 @@ import re
 for line in sys.stdin:
     
     line = line.strip()
-    cols = line.split('\t')
+    cols = line.split(',')
     print'%s\t%d'%(cols[2],1)
 
